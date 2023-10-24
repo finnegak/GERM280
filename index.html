@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond the Classroom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table>
+        <tr> 
+            <td id = "head" colspan = "7"> <a style = "color: red;" href = "museum.html" target="_blank">Museum</a></td>
+        </tr>
+        <tr>
+            <td colspan = "7"> Museum Folkwang is a prominent art museum located in Essen, Germany. Museum Folkwang was founded in 1902 by Karl Ernst Osthaus, a prominent art collector and patron of the arts. It initially began as a museum of the arts and crafts but soon expanded its collection to include a wide range of visual arts, from paintings and sculptures to graphic art, photography, and design. It is known for its impressive collection of art spanning various periods and styles, with a strong focus on modern and contemporary art. The museum is widely regarded as one of the most important cultural institutions in Germany and has a rich history.</td>
+        </tr>
+        <tr>
+            <td id = "artist" colspan = "7" > Caspar David Friedrich (1774-1840)  </td>
+        </tr>
+        <tr>
+            <td>
+                <img id="img1" src="Images/image1.jpg" alt="Das Felsentor im Uttewalder Grund" width = "150" height = "150" onmouseover="changeImage();timer_on=false">
+            </td>
+            <td>
+                <img id="img2" src="Images/image2.jpg" alt="Pflanzenstudien" width = "150" height = "150" onmouseover="changeImage();timer_on=false">
+            </td>
+            <td>
+                <img id="img3" src="Images/image3.jpg" alt="Ruine an einem Deich" width = "150" height = "150" onmouseover="changeImage();timer_on=false">
+            </td>
+            <td class = "four">
+                <img id="img4" class = "four" src="Images/image4.jpg" alt="Frau mit Spinnennetz - Melancholie" width = "425" height = "425" onmouseover="changeImage();timer_on=false">
+                <h4 id="heading" style="text-align:center"> Frau mit Spinnennetz - Melancholie, 1803 </h4>
+            </td>
+            <td>
+                <img id="img5" src="Images/image5.jpg" alt="Gebirgslandschaft mit Regenbogen" width = "150" height = "150" onmouseover="changeImage();timer_on=false">
+            </td>
+            <td>
+                <img id="img6" src="Images/image6.jpg" alt="Tannenbäume" width = "150" height = "150" onmouseover="changeImage();timer_on=false">
+            </td>
+            <td>
+                <img id="img7" src="Images/image7.jpg" alt="Frau vor der untergehenden Sonne" width = "150" height = "150" onmouseover="changeImage();timer_on=false">
+            </td>
+        </tr>
+        <!-- Caption -->
+        <tr>
+            <td></td><td></td><td></td>
+            <td >
+                <div id="caption" class = "four"> dummmmy texttttttt 444444444444 dummmmy texttttttt 444444444444 dummmmy texttttttt 444444444444 dummmmy texttttttt 444444444444 </div>
+            </td>
+            <td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td colspan = "7">
+                <input type="button" value = "Start Slideshow" onclick="timer_on=true; slideShow()">
+            </td>
+        </tr>
+        <tr>
+            <td colspan = "7">
+                <input type="button" value = "Stop Slideshow" onclick="timer_on=false">
+            </td>
+        </tr>
+        
+    </table>
+    <script src = "script.js"></script>
+</body>
+</html>
