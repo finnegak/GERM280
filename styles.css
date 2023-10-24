@@ -1,0 +1,9 @@
+input {width: 100%;}
+#head{color: red; font-size: 40pt;font-family: "Times New Roman"; text-align:center}
+td{text-align:center}
+#artist{font-size: 30pt}
+.four{background-color:gainsboro}
+td{border: solid 2px black;}
+table{border-collapse: collapse;}
+a{text-decoration: none}
+a:hover{text-decoration: underline;}
