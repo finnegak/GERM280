@@ -1,13 +1,13 @@
 var timer_on;
 var headings = {1:"Das Felsentor im Uttewalder Grund, 1800", 2 : "Pflanzenstudien, 1801", 3 : "Ruine an einem Deich, um Oktober 1801",4 : "Frau mit Spinnennetz - Melancholie, 1803",5:"Gebirgslandschaft mit Regenbogen, 1809/10", 6 : "Tannenbäume, 1813", 7 : "Frau vor der untergehenden Sonne, around 1818"};
 
-var caption1 = "Title German: Felsentor im Uttewalder Grund <br> Rock Arch in the Uttewalder Grund <br> Object type: drawing<br> Date:	circa 1801 <br> Medium:	sepia over graphite pencil<br>Dimensions: height: 70.6 cm (27.7 in) width: 50 cm (19.6 in)";
-var caption2 = "Title: Pflanzenstudien (GER)<br>Object type: drawing<br>Date: May 19, 1801<br>Medium: Pencil, pen and brush on paper<br>Dimensions: height: 369 mm width: 236 mm";
-var caption3 = "Dimensions: 237x367mm Medium: Pen and brown over pencil on wove paper";
-var caption4 = "Year: 1803<br>Medium: drawing, then woodcut<br>Dimensions: 17 cm by 11.9 cm";
-var caption5 = "5";
-var caption6 = "6";
-var caption7 = "7";
+var caption1 = "Rock Arch in the Uttewalder Grund<br>Sepia over pencil<br>Paper 70,6 x 50 cm";
+var caption2 = "Plant Studies<br>Brush in sepia over pencil<br>Paper 13,3 x 22,9 cm";
+var caption3 = "depictions of the ruins of Wolgast Castle<br>Pencil and pen in brown<br>Paper 23,7 x 36,6 cm";
+var caption4 = "Holzschnitt<br>Paper 17,3 x 12 cm";
+var caption5 = "Mountain Landscape with Rainbow<br>Oil on canvas<br>69 x 102 cm";
+var caption6 = "Pine Trees<br>Pencil<br>19,3 x 12,2 cm";
+var caption7 = "Woman in front of Setting Sun<br>Oil on canvas<br>22 x 30,5 cm<br>Acquired in 1937";
 var captions = {1:caption1, 2:caption2, 3:caption3, 4:caption4, 5:caption5, 6:caption6, 7:caption7};
 var current = 4;
 
