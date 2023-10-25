@@ -45,7 +45,7 @@ var current = 4;
             return;
         }
         changeImage();
-        setTimeout("slideShow()",4000);
+        setTimeout("slideShow()",2000);
 
     }
 
